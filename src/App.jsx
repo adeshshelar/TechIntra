@@ -1,7 +1,7 @@
-import Services from './Sections/Services';
-import About from './Sections/About';
-import Projects from './Sections/Projects';
-import Front from './Sections/Front';
+import Services from './sections/Services';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Front from './sections/Front';
 
 function App() {
 

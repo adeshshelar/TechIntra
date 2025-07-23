@@ -93,14 +93,12 @@ const Front = () => {
       </div>
 
       <div className="relative z-10">
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+        <div className="relative rounded-2xl overflow-hidden">
           <img 
             src="techintra.jpg" 
-            alt="TechIntra team working on digital solutions" 
             className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
             loading="eager"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
         </div>
         
         {/* Floating elements */}
