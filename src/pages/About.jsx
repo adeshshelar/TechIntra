@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
    <div>
-         {/* About Section - Optimized */}
+  {/* About Section - Optimized */}
 <section id="about" className="bg-white py-16 md:py-20">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
@@ -12,7 +12,7 @@ const About = () => {
         <img 
           src="about.jpg" 
           alt="TechIntra team collaborating on digital solutions" 
-          className="rounded-xl w-full shadow-lg transition-transform duration-500 group-hover:scale-[1.02]"
+          className="rounded-xl w-full  transition-transform duration-500 group-hover:scale-[1.02]"
           loading="lazy"
           width={600}
           height={400}
