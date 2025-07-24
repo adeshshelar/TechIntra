@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-scale,
+.scroll-bottom,
+.scroll-top {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.scroll-scale {
+  transform: scale(0.9);
+}
+
+.scroll-bottom {
+  transform: translateY(300px);
+}
+
+.scroll-top {
+  transform: translateY(-300px);
+}
+
+.scroll-scale.show-items {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-bottom.show-items,
+.scroll-top.show-items {
+  opacity: 1;
+  transform: translateY(0);
+}

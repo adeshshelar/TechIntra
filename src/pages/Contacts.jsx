@@ -1,6 +1,8 @@
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram} from "react-icons/fa";
+import useScrollAnimation from "../Animation";
 
 const Contacts = () => {
+  useScrollAnimation();
   return (
     <div>
        {/* Contact Section - Optimized */}
@@ -11,7 +13,7 @@ const Contacts = () => {
       <span className="inline-block text-blue-600 font-semibold uppercase tracking-wider text-sm mb-3">
         Get In Touch
       </span>
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+      <h2 className="scroll-scale text-4xl md:text-5xl font-bold text-gray-900">
         Contact <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Us</span>
       </h2>
       <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
@@ -20,7 +22,7 @@ const Contacts = () => {
     </div>
 
     {/* Contact Form */}
-    <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+    <div className="scroll-bottom max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
       <div className="md:flex">
         {/* Contact Info */}
         <div className="md:w-2/5 bg-gradient-to-b from-blue-600 to-purple-600 text-white p-10">

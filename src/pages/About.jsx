@@ -1,6 +1,8 @@
-import React from 'react'
+import useScrollAnimation from "../Animation";
 
 const About = () => {
+  useScrollAnimation();
+
   return (
    <div>
   {/* About Section - Optimized */}
@@ -12,7 +14,7 @@ const About = () => {
         <img 
           src="about.jpg" 
           alt="TechIntra team collaborating on digital solutions" 
-          className="rounded-xl w-full  transition-transform duration-500 group-hover:scale-[1.02]"
+          className="scroll-scale rounded-xl w-full  transition-transform duration-500 group-hover:scale-[1.02]"
           loading="lazy"
           width={600}
           height={400}
@@ -26,7 +28,7 @@ const About = () => {
           Get to Know Us
         </span>
         
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+        <h2 className="scroll-scale text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
           Driving <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Innovation</span> Through Smart IT Solutions
         </h2>
         

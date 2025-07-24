@@ -1,6 +1,8 @@
-import React from 'react'
+import useScrollAnimation from "../Animation";
 
 const Services = () => {
+  useScrollAnimation();
+
   return (
     <div>
   {/* Services Section - With Working Colors */}
@@ -11,7 +13,7 @@ const Services = () => {
       <span className="inline-block text-blue-600 font-semibold uppercase tracking-wider text-sm mb-3">
         Our Services
       </span>
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
+      <h2 className="scroll-scale text-4xl md:text-5xl font-bold text-gray-900 mt-2">
         Solutions We <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Provide</span>
       </h2>
       <p className="mt-5 text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
@@ -146,7 +148,7 @@ const Services = () => {
         return (
           <div 
             key={idx} 
-            className={`bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 ${colors.borderHover} relative overflow-hidden group`}
+            className={`scroll-bottom bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 ${colors.borderHover} relative overflow-hidden group`}
           >
             {/* Decorative accent */}
             <div className={`absolute top-0 left-0 w-full h-1 bg-gradient-to-r ${colors.accent}`}></div>
